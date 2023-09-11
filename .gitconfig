@@ -1,0 +1,13 @@
+[user]
+	name = Cyan
+	email = 77025112+shadycyan@users.noreply.github.com
+	singingkey = 421A6E0FAB4B2369
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	excludesfile = ~/.config/.gitignore_global
