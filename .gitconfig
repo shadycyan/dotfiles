@@ -11,3 +11,5 @@
 	required = true
 [core]
 	excludesfile = ~/.config/.gitignore_global
+[gpg]
+	program = /opt/homebrew/bin/gpg 
