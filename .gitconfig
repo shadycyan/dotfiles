@@ -1,7 +1,7 @@
 [user]
 	name = Cyan
 	email = 77025112+shadycyan@users.noreply.github.com
-	singingkey = 421A6E0FAB4B2369
+	signingkey = EBF736C28C516AC1
 [commit]
 	gpgsign = true
 [filter "lfs"]
@@ -11,5 +11,6 @@
 	required = true
 [core]
 	excludesfile = ~/.config/.gitignore_global
+	editor = vim
 [gpg]
-	program = /opt/homebrew/bin/gpg 
+	program = /opt/homebrew/bin/gpg
